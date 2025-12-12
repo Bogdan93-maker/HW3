@@ -2,18 +2,18 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        byte bananas = 7;
-        System.out.println(bananas);
-        short oranges = 500;
-        System.out.println(oranges);
-        int mandarins = 50000;
-        System.out.println(mandarins);
-        long grapefruits = 50000000000L;
-        System.out.println(grapefruits);
-        float apricots = 3.5F;
-        System.out.println(apricots);
-        double apples = 1.6E4;
-        System.out.println(apples);
+        int studentCount = 150;
+        System.out.println("Значение переменной studentCount с типом int равно " + studentCount);
+        byte roomNumber = 12;
+        System.out.println("Значение переменной roomNumber с типом byte равно " + roomNumber);
+        short pageCount = 2048;
+        System.out.println("Значение переменной pageCount с типом short равно " + pageCount);
+        long bigNumber = 1234567890123L;
+        System.out.println("Значение переменной bigNumber с типом long равно " + bigNumber);
+        float temperature = 36.6f;
+        System.out.println("Значение переменной temperature с типом float равно " + temperature);
+        double piValue = 3.1415926535;
+        System.out.println("Значение переменной piValue с типом double равно " + piValue);
 
         double value1 = 27.12;
         long value2 = 987678965549L;
@@ -40,16 +40,21 @@ public class Main {
         var PerformanceMinutes2 = 16;
         System.out.println("За 2 минуты машина произвела 16штук бутылок" + PerformanceMinutes2);
         var PerformanceMinutes1 = PerformanceMinutes2 / 2;
-        System.out.println("За 1 минутe машина произвела 8штук бутылок" + PerformanceMinutes1);
+        System.out.println("За 1 минуту машина произвела " + PerformanceMinutes1 + " штук бутылок");
+        var PerformanceMinutes20 = PerformanceMinutes1*20;
+        System.out.println("За 20 минут машина производит " + PerformanceMinutes20+ " штук бутылок ");
         var efficiency60 = PerformanceMinutes1 * 60;
-        System.out.println("За 60 минут машина произвела" + efficiency60 + "штук бутылок");
+        System.out.println("За 60 минут машина произвела" + efficiency60 + " штук бутылок");
         var ProductivityPerDay = efficiency60 * 24;
-        System.out.println("За 24 чсас машина произвела" + ProductivityPerDay + "штук бутылок");
+        System.out.println(ProductivityPerDay);
+        var performanceDays3=ProductivityPerDay*3;
+        System.out.println("За 3 дня машина производит " + performanceDays3+" штук бутылок");
+        System.out.println("За 24 чсас машина произвела" + ProductivityPerDay + " штук бутылок");
         var ProductivityPerMonth = ProductivityPerDay * 30;
-        System.out.println("За 1 месяц машина произвела" + ProductivityPerMonth + "штук бутылок");
+        System.out.println("За 1 месяц машина произвела " + ProductivityPerMonth + " штук бутылок");
 
         var InTotal = 120;
-        System.out.println("нужно" + InTotal + "банок краски");
+        System.out.println("нужно " + InTotal + "банок краски");
         var white = 2;
         System.out.println("нужно белой краски" + white + "банки");
         var brown = 4;
