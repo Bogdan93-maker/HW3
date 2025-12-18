@@ -121,7 +121,7 @@ public class Main {
         System.out.println(annualIncreaseKristina + " рублей разница между годовым доходом с нынешней зарплатой и после повышения у Кристины");
         System.out.println("Маша теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " + annualIncreaseMasha + " рублей");
         System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " + annualIncreaseDenis + " рублей");
-        System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + annualIncreaseKristina + " рублей");
+        System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + annualIncreaseKristina + " рублей.");
 
     }
 }
